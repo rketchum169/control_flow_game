@@ -17,7 +17,8 @@
 		echo "You cheated! Pick another number!\n";
 		}	elseif ($comp_number > $u_number)break;
 	
-		}	while($comp_number <= $u_number)
+		}	while($comp_number <= $u_number);
 		    
+		echo "HAHA! MY NUMBER WAS {$comp_number} SO I WON, YOU LOSE! TOO EASY! Bye.\n";		
 	
 ?>
