@@ -10,16 +10,12 @@ your_number = gets.chomp.to_i
 
 if your_number > 9 || your_number < 0
 	puts "Please pick a nunber between 0 and 9"
-	exit
-	end
-
-if my_number == your_number
-	puts "Play again?"
+elsif my_number == your_number
+	puts "Well we got the same number. Choose another one?"
 elsif my_number < your_number
-	puts "You cheated! Again!"
-
+	puts "You cheated! Pick another number!"
 else
-	puts "I guess I won!"
+	puts "HAHA! MY NUMBER WAS #{my_number} SO I WON, YOU LOSE TOO EASY! Bye."
 	break
 end
 end
